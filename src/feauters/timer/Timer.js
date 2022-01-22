@@ -115,8 +115,9 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
   },
+
   clearSubject:{
-    paddingBotton: 25,
-    paddingLeft: 25
+   // paddingBotton: 25,
+    //paddingLeft: 25
   }
 });

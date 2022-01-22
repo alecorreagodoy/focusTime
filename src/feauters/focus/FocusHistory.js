@@ -22,8 +22,8 @@ export const FocusHistory = ({ focusHistory, onClear }) => {
             <Text style={styles.title}>Things we ve focus on </Text>
 
             <FlatList
-              style={{ flex: 1, alignItems: 'center' }}
-              contentContainerStyle={{ flex: 1 }}
+              style={{ flex: 1 }}
+              contentContainerStyle={{ flex: 1,  alignItems: 'center' }}
               data={focusHistory} //array of date [1,2,3,4]
               renderItem={HistoryItem}
             />
